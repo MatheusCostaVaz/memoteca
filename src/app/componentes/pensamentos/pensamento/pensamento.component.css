@@ -1,24 +1,10 @@
 .acoes {
   display: flex;
-  justify-content: flex-end
-}
-
-.botao-excluir {
-  border: none;
-  cursor: pointer;
-  margin-left: 5px;
-  margin-top: 10px;
-}
-
-.botao-editar {
-  border: none;
-  cursor: pointer;
-  margin-right: 10px;
-  margin-top: 10px;
+  justify-content: flex-end;
 }
 
 .pensamento {
-  background-color: #F8F9FE;
+  background-color: #f8f9fe;
   padding: 1rem;
   box-sizing: border-box;
 }
@@ -37,11 +23,11 @@
 }
 
 .modelo2 {
-  box-shadow: 8px 8px 0px #6BD1FF;
+  box-shadow: 8px 8px 0px #6bd1ff;
 }
 
 .modelo3 {
-  box-shadow: 8px 8px 0px #84EEC1;
+  box-shadow: 8px 8px 0px #84eec1;
 }
 
 .pensamento-g {
@@ -61,4 +47,14 @@
   .pensamento-p {
     width: 100%;
   }
+}
+
+.botao-editar,
+.botao-excluir,
+.botao-favorito {
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-top: 15px;
+  background-color: transparent;
 }
